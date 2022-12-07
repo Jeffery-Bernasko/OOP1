@@ -1,10 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-    Car toyota = new Car();
 
-    toyota.color = "Black";
+        //Creating an object of the car class
+    Car myCar = new Car();
 
-        System.out.println(toyota.color);
+    //Accessing the methods of the class
+   myCar.fullThrottle();
+   myCar.speed(200);
+   myCar.color("Black");
     }
 
 }
