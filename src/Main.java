@@ -18,7 +18,7 @@ public class Main {
         //variable for assigning
         String name;
         String email;
-        int phoneNumber;
+        String phoneNumber;
         int accNumber;
         double balance;
         double depositAmount;
@@ -36,7 +36,7 @@ public class Main {
         email = sc.nextLine();
 
         System.out.print("Please Enter your phone number: ");
-        phoneNumber = sc.nextInt();
+        phoneNumber = sc.nextLine();
 
         System.out.print("Please enter the balance in your account: ");
         balance = sc.nextDouble();
@@ -63,37 +63,6 @@ public class Main {
         acc1.deposit(depositAmount);
         System.out.println();
         acc1.withdrawal(withdrawalAmount);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -143,7 +112,8 @@ public class Main {
 //        System.out.println(s3.getCourse());
 //        System.out.println(s3.getStudentId());
 
-
+        //Accessing the honk method from the vehicle class
+       // myCar.honk();
         //Accessing the methods of the class
         // myCar.fullThrottle();
         //   myCar.speed(200);

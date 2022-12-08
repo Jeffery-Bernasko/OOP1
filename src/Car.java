@@ -1,7 +1,7 @@
 // A Car class with attributes( basically variables) and methods
 //private is an access modifier that is used to set access level for classes, attributes, methods and constructors
 
-public class Car {
+public class Car extends Vehicle {
     //attributes of the class
     private String color;
     private int speed;

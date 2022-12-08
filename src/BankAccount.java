@@ -3,7 +3,7 @@ public class BankAccount {
     private String Email;
     private double balance;
     private int accNumber;
-    private int phoneNumber;
+    private String phoneNumber;
 
     //Methods to Deposit and Withdraw from the account
     public void deposit(double depositAmount){
@@ -38,7 +38,7 @@ public class BankAccount {
         this.accNumber = accNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 
@@ -59,7 +59,7 @@ public class BankAccount {
         return accNumber;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 }
